@@ -22,11 +22,13 @@ const products = [
 
 // Function to create and insert product elements into the DOM
 function displayProducts(products) {
+  
     // Select the target container
     const productList = document.getElementById('product-list');
 
     // Loop through each product and create HTML elements
     products.forEach(product => {
+    
         // Create a new div element for the product
         const productElement = document.createElement('div');
         productElement.className = 'product';
